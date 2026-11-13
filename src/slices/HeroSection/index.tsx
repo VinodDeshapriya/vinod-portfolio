@@ -8,6 +8,7 @@ const TwoColumns = dynamic(() => import("./variants/TwoColumns"));
 const WithBg = dynamic(() => import("./variants/withBg"));
 const TwoColumnsVideo = dynamic(() => import("./variants/TwoColumnsVideo"));
 const TwoColumnsForm = dynamic(() => import("./variants/TwoColumnsForm"));
+const Portfolio = dynamic(() => import("./variants/Portfolio"));
 
 type HeroSectionContext = {
   settings?: Content.SettingsDocument;
@@ -45,6 +46,7 @@ const HeroSection: FC<HeroSectionProps> = ({ slice, context }) => {
       {slice.variation === "twoColumnsForm" && (
         <TwoColumnsForm slice={slice} clientId={clientId} />
       )}
+      {slice.variation === "portfolio" && <Portfolio slice={slice} />}
     </section>
   );
 };

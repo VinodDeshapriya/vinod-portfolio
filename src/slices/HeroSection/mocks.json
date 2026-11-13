@@ -736,5 +736,139 @@
 				"value": []
 			}
 		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "portfolio",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Half",
+				"type": "Select"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Half",
+				"type": "Select"
+			},
+			"status_label": {
+				"__TYPE__": "FieldContent",
+				"value": "Available for new projects",
+				"type": "Text"
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "UI UX Designer in Sri Lanka Who Designs for Real Users and Real Results",
+							"spans": [
+								{
+									"type": "em",
+									"start": 44,
+									"end": 54
+								}
+							]
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "I'm Vinod Deshapriya, a UI UX designer based in Sri Lanka. I design websites and mobile apps that are simple to use, fit your brand and help your business grow."
+						}
+					}
+				]
+			},
+			"benefits": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"text",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "User research and UX planning before a single screen is designed",
+									"type": "Text"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"text",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Clean, consistent UI in Figma, ready for your developer to build",
+									"type": "Text"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"text",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Clickable prototypes, so you can test ideas before you pay for development",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://example.com/contact",
+							"text": "Book a Free 30-Min Call",
+							"variant": "Primary with Arrow"
+						}
+					},
+					{
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://example.com/work",
+							"text": "See My Work",
+							"variant": "Secondary with Arrow"
+						}
+					}
+				]
+			},
+			"primary_button_note": {
+				"__TYPE__": "FieldContent",
+				"value": "Free · 30 minutes · Online",
+				"type": "Text"
+			},
+			"image_badge": {
+				"__TYPE__": "FieldContent",
+				"value": "Based in Sri Lanka 🇱🇰",
+				"type": "Text"
+			},
+			"scroll_prompt": {
+				"__TYPE__": "FieldContent",
+				"value": "Keep scrolling",
+				"type": "Text"
+			}
+		},
+		"items": []
 	}
 ]

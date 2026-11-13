@@ -5152,6 +5152,166 @@ export type HeroSectionSliceTwoColumnsForm = prismic.SharedSliceVariation<
 >;
 
 /**
+ * Item in *HeroSection → Portfolio → Primary → Benefits*
+ */
+export interface HeroSectionSlicePortfolioPrimaryBenefitsItem {
+  /**
+   * Text field in *HeroSection → Portfolio → Primary → Benefits*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.portfolio.primary.benefits[].text
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  text: prismic.KeyTextField;
+}
+
+/**
+ * Primary content in *HeroSection → Portfolio → Primary*
+ */
+export interface HeroSectionSlicePortfolioPrimary {
+  /**
+   * Top Padding field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Select
+   * - **Placeholder**: *None*
+   * - **Default Value**: Half
+   * - **API ID Path**: hero_section.portfolio.primary.top_padding
+   * - **Documentation**: https://prismic.io/docs/fields/select
+   */
+  top_padding: prismic.SelectField<"Full" | "Half" | "None", "filled">;
+
+  /**
+   * Bottom Padding field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Select
+   * - **Placeholder**: *None*
+   * - **Default Value**: Half
+   * - **API ID Path**: hero_section.portfolio.primary.bottom_padding
+   * - **Documentation**: https://prismic.io/docs/fields/select
+   */
+  bottom_padding: prismic.SelectField<"Full" | "Half" | "None", "filled">;
+
+  /**
+   * Status Label field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.portfolio.primary.status_label
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  status_label: prismic.KeyTextField;
+
+  /**
+   * Title field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.portfolio.primary.title
+   * - **Documentation**: https://prismic.io/docs/fields/rich-text
+   */
+  title: prismic.RichTextField;
+
+  /**
+   * Description field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Rich Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.portfolio.primary.description
+   * - **Documentation**: https://prismic.io/docs/fields/rich-text
+   */
+  description: prismic.RichTextField;
+
+  /**
+   * Benefits field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Group
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.portfolio.primary.benefits[]
+   * - **Documentation**: https://prismic.io/docs/fields/repeatable-group
+   */
+  benefits: prismic.GroupField<
+    Simplify<HeroSectionSlicePortfolioPrimaryBenefitsItem>
+  >;
+
+  /**
+   * Buttons field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Link
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.portfolio.primary.buttons
+   * - **Documentation**: https://prismic.io/docs/fields/link
+   */
+  buttons: prismic.Repeatable<
+    prismic.LinkField<
+      string,
+      string,
+      unknown,
+      prismic.FieldState,
+      | "Primary"
+      | "Secondary"
+      | "Link"
+      | "Primary with Arrow"
+      | "Secondary with Arrow"
+      | "Link with Arrow"
+    >
+  >;
+
+  /**
+   * Primary Button Note field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.portfolio.primary.primary_button_note
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  primary_button_note: prismic.KeyTextField;
+
+  /**
+   * Portrait field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Image
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.portfolio.primary.image
+   * - **Documentation**: https://prismic.io/docs/fields/image
+   */
+  image: prismic.ImageField<never>;
+
+  /**
+   * Image Badge field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.portfolio.primary.image_badge
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  image_badge: prismic.KeyTextField;
+
+  /**
+   * Scroll Prompt field in *HeroSection → Portfolio → Primary*
+   *
+   * - **Field Type**: Text
+   * - **Placeholder**: *None*
+   * - **API ID Path**: hero_section.portfolio.primary.scroll_prompt
+   * - **Documentation**: https://prismic.io/docs/fields/text
+   */
+  scroll_prompt: prismic.KeyTextField;
+}
+
+/**
+ * Portfolio variation for HeroSection Slice
+ *
+ * - **API ID**: `portfolio`
+ * - **Description**: Portfolio
+ * - **Documentation**: https://prismic.io/docs/slices
+ */
+export type HeroSectionSlicePortfolio = prismic.SharedSliceVariation<
+  "portfolio",
+  Simplify<HeroSectionSlicePortfolioPrimary>,
+  never
+>;
+
+/**
  * Slice variation for *HeroSection*
  */
 type HeroSectionSliceVariation =
@@ -5159,7 +5319,8 @@ type HeroSectionSliceVariation =
   | HeroSectionSliceTwoColumns
   | HeroSectionSliceWithBackgroundImage
   | HeroSectionSliceTwoColumnsVideo
-  | HeroSectionSliceTwoColumnsForm;
+  | HeroSectionSliceTwoColumnsForm
+  | HeroSectionSlicePortfolio;
 
 /**
  * HeroSection Shared Slice
@@ -7821,12 +7982,15 @@ declare module "@prismicio/client" {
       HeroSectionSliceTwoColumnsVideoPrimaryHighlightsItem,
       HeroSectionSliceTwoColumnsVideoPrimary,
       HeroSectionSliceTwoColumnsFormPrimary,
+      HeroSectionSlicePortfolioPrimaryBenefitsItem,
+      HeroSectionSlicePortfolioPrimary,
       HeroSectionSliceVariation,
       HeroSectionSliceDefault,
       HeroSectionSliceTwoColumns,
       HeroSectionSliceWithBackgroundImage,
       HeroSectionSliceTwoColumnsVideo,
       HeroSectionSliceTwoColumnsForm,
+      HeroSectionSlicePortfolio,
       ImageContentSlice,
       ImageContentSliceDefaultPrimary,
       ImageContentSliceImageStepsPrimaryFeaturesItem,

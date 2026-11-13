@@ -1,0 +1,88 @@
+/*
+ * Portfolio hero tokens, from the Portfolio Website Design Figma variables.
+ * Scoped to this variation so the starter tokens other slices use stay as they are.
+ */
+.root {
+  --ph-brand: #157ff8; /* brand-primary-light, Colors/primary-btn/default */
+  --ph-brand-hover: #0b6ad8; /* not in Figma: primary darkened ~10% for hover */
+  --ph-heading: #0a0b0f; /* text-text-heading, secondry-btn stroke */
+  --ph-description: #4a5263; /* text-text-description */
+  --ph-inactive: #9aa1ae; /* text-text-inactive */
+  --ph-success: #16a34a; /* success-success-primary */
+  --ph-success-bg: #dcfce7; /* success-success-bg */
+  --ph-info-bg: #e3f0ff; /* info-info-bg */
+  --ph-card-from: #1480f7;
+  --ph-card-to: #0a1221;
+
+  font-family: var(--font-portfolio-body), sans-serif;
+  background-color: #ffffff; /* background-bg-white */
+}
+
+.title {
+  font-family: var(--font-portfolio-title), sans-serif;
+  font-weight: 400;
+  color: var(--ph-heading);
+  /* title/3xlarge: 80 / 84, -2.4px at 1440; scaled down below lg */
+  font-size: 40px;
+  line-height: 46px;
+  letter-spacing: -1.2px;
+}
+
+@media (min-width: 768px) {
+  .title {
+    font-size: 56px;
+    line-height: 62px;
+    letter-spacing: -1.68px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 64px;
+    line-height: 68px;
+    letter-spacing: -1.92px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .title {
+    font-size: 80px;
+    line-height: 84px;
+    letter-spacing: -2.4px;
+  }
+}
+
+.title em {
+  font-style: normal;
+  color: var(--ph-brand);
+}
+
+/* Fade-up on load */
+.fadeUp {
+  animation: ph-fade-up 700ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+.delay1 {
+  animation-delay: 120ms;
+}
+
+.delay2 {
+  animation-delay: 240ms;
+}
+
+@keyframes ph-fade-up {
+  from {
+    opacity: 0;
+    transform: translateY(24px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fadeUp {
+    animation: none;
+  }
+}
