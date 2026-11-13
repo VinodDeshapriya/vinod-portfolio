@@ -5,6 +5,7 @@ import { createClient } from "@/prismicio";
 import StyledHeader from "@/components/ui/StyledHeader";
 import { type NavItem } from "@/types/nav";
 import { fontVariables } from "./fonts";
+//test
 
 import "./globals.css";
 
