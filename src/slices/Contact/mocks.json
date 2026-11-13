@@ -1,0 +1,348 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "Half"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "Half"
+			},
+			"background_color": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Lorem ipsum eyebrow",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Outside"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliqua incididunt qui consectetur consequat eiusmod sit amet incididunt consequat exercitation excepteur fugiat.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "14d94c3e-0038-452b-b50c-16557ee34d18",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://example.com",
+							"target": "_blank",
+							"text": "Get started",
+							"variant": "Primary"
+						}
+					}
+				]
+			},
+			"google_map_iframe_url": {
+				"__TYPE__": "FieldContent",
+				"value": "street",
+				"type": "Text"
+			},
+			"full_width_map": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"email_recippients": {
+				"__TYPE__": "FieldContent",
+				"value": "end",
+				"type": "Text"
+			},
+			"success_message": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Excepteur quis ex aute incididunt culpa sit dolor amet nisi."
+						}
+					}
+				]
+			},
+			"failure_message": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "In laboris ex dolor enim cillum excepteur qui sint. Eiusmod proident elit irure voluptate duis sunt laborum ut deserunt minim quis cillum id aliqua."
+						}
+					}
+				]
+			},
+			"contact_details": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"value",
+								{
+									"key": "c6dcd0cb-267f-4418-9c67-2cc9f6b79df5",
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "http://twitter.com",
+										"text": "younger"
+									}
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "enquiryForm",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "Full"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "Full"
+			},
+			"background_color": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Get in Touch",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Tell us about your site and we will come back within one business day with a time for a free walkthrough.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"contact_details": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "4b1c2d3e-0000-4000-8000-000000000001",
+						"value": [
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Visit us"
+								}
+							],
+							[
+								"value",
+								{
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://example.com",
+										"text": "70 Shepherd Street, Marrickville NSW 2204"
+									}
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "4b1c2d3e-0000-4000-8000-000000000002",
+						"value": [
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Talk to us"
+								}
+							],
+							[
+								"value",
+								{
+									"__TYPE__": "LinkContent",
+									"value": {
+										"__TYPE__": "ExternalLink",
+										"url": "https://example.com",
+										"text": "0455 174 526"
+									}
+								}
+							]
+						]
+					}
+				]
+			},
+			"email_recippients": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "hello@example.com"
+			},
+			"services": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "5c2d3e4f-0000-4000-8000-000000000001",
+						"value": [
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Commercial Cleaning"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "5c2d3e4f-0000-4000-8000-000000000002",
+						"value": [
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Window Cleaning"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "5c2d3e4f-0000-4000-8000-000000000003",
+						"value": [
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Carpet Cleaning"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "5c2d3e4f-0000-4000-8000-000000000004",
+						"value": [
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Industrial Cleaning"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "5c2d3e4f-0000-4000-8000-000000000005",
+						"value": [
+							[
+								"label",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Other"
+								}
+							]
+						]
+					}
+				]
+			},
+			"success_message": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Thanks for your enquiry. We'll be in touch within one business day.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"failure_message": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Something went wrong while submitting the form.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"submit_button_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Submit"
+			}
+		},
+		"items": []
+	}
+]

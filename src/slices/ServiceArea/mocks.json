@@ -1,0 +1,154 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Full",
+				"type": "Select"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Full",
+				"type": "Select"
+			},
+			"background_color": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Where We Operate"
+						}
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading2",
+						"content": {
+							"text": "Courier Services Across Australia"
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Pacer compares and books couriers for businesses and individuals in every major Australian city."
+						}
+					}
+				]
+			},
+			"locations": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"__TYPE__": "LinkContent",
+						"key": "d66bb51b-dc2e-49df-b939-1a213a12e535",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://www.pacerlogistics.com.au/courier/sydney/",
+							"text": "Sydney"
+						}
+					},
+					{
+						"__TYPE__": "LinkContent",
+						"key": "83b9d79a-9ef6-4452-9065-8748bc954913",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://www.pacerlogistics.com.au/courier/melbourne/",
+							"text": "Melbourne"
+						}
+					},
+					{
+						"__TYPE__": "LinkContent",
+						"key": "ce50f000-60b1-476f-a8dc-87c2f5d98d20",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://www.pacerlogistics.com.au/courier/brisbane/",
+							"text": "Brisbane"
+						}
+					},
+					{
+						"__TYPE__": "LinkContent",
+						"key": "acf30cff-7413-4ff4-abf5-8d69199165ae",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://www.pacerlogistics.com.au/courier/perth/",
+							"text": "Perth"
+						}
+					},
+					{
+						"__TYPE__": "LinkContent",
+						"key": "20947ff3-be2d-40b7-a646-9691e3762820",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://www.pacerlogistics.com.au/courier/adelaide/",
+							"text": "Adelaide"
+						}
+					},
+					{
+						"__TYPE__": "LinkContent",
+						"key": "3bb32a75-4580-4b50-acfa-0284b4c6bf2e",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://www.pacerlogistics.com.au/courier/canberra/",
+							"text": "Canberra"
+						}
+					}
+				]
+			},
+			"map_image": {
+				"__TYPE__": "ImageContent",
+				"origin": {
+					"id": "main",
+					"url": "https://images.prismic.io/pacer-logistics/0v_nB-biB4kWdJpO_service-area-map.png",
+					"width": 1376,
+					"height": 1200
+				},
+				"width": 1376,
+				"height": 1200,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 0
+					},
+					"background": "transparent"
+				},
+				"url": "https://images.prismic.io/pacer-logistics/0v_nB-biB4kWdJpO_service-area-map.png?w=1376&h=1200&fit=crop",
+				"alt": "Map of Australia showing Pacer's six metro hubs: Perth, Adelaide, Melbourne, Canberra, Sydney and Brisbane",
+				"thumbnails": {}
+			},
+			"info_card_title": {
+				"__TYPE__": "FieldContent",
+				"value": "Australia-wide coverage",
+				"type": "Text"
+			},
+			"info_card_text": {
+				"__TYPE__": "FieldContent",
+				"value": "Six metro hubs · every major Australian city",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "8544da8d-3afa-4a92-8856-cc4f2c6e93f8",
+				"value": []
+			}
+		]
+	}
+]

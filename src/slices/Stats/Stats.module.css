@@ -1,0 +1,64 @@
+.hasDarkBg * {
+  color: white !important;
+}
+
+.item {
+  position: relative;
+}
+
+.item::before {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 60%;
+  width: 1px;
+  background-color: var(--color-border-primary);
+  display: none;
+}
+
+/* lg and above: 3 columns — all except every 3rd and the last */
+@media (min-width: 1024px) {
+  .item:not(.quad):not(:nth-child(3n)):not(:last-child)::before {
+    display: block;
+  }
+  .item:not(.quad):nth-child(1),
+  .item:not(.quad):nth-child(2),
+  .item:not(.quad):nth-child(3) {
+    margin-top: 0;
+  }
+  .item:not(.quad):nth-child(n + 4) {
+    margin-top: 32px;
+  }
+}
+
+/* md only: 2 columns — odd items except the last */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .item:not(.quad):nth-child(odd):not(:last-child)::before {
+    display: block;
+  }
+  .item:not(.quad):nth-child(n + 3) {
+    margin-top: 32px;
+  }
+}
+
+/* Exactly 4 items, md up to below xl: 2x2 grid */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .item.quad:nth-child(odd):not(:last-child)::before {
+    display: block;
+  }
+  .item.quad:nth-child(n + 3) {
+    margin-top: 32px;
+  }
+}
+
+/* Exactly 4 items, xl and above: single row of 4 */
+@media (min-width: 1280px) {
+  .item.quad:not(:last-child)::before {
+    display: block;
+  }
+  .item.quad {
+    margin-top: 0;
+  }
+}

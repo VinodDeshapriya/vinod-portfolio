@@ -1,0 +1,26 @@
+{
+  "id": "get_directions",
+  "type": "SharedSlice",
+  "name": "GetDirections",
+  "description": "GetDirections",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "map_embed_url": {
+          "type": "Text",
+          "config": {
+            "label": "Map Embed URL",
+            "placeholder": "Google Maps \"Embed a map\" src URL"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "table_block",
+  "type": "SharedSlice",
+  "name": "TableBlock",
+  "description": "TableBlock",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "heading2"
+          }
+        },
+        "table": {
+          "type": "Table",
+          "config": {
+            "label": "Table"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

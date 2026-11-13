@@ -1,0 +1,581 @@
+{
+  "id": "hero_section",
+  "type": "SharedSlice",
+  "name": "HeroSection",
+  "description": "HeroSection",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Full Width",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "top_padding": {
+          "type": "Select",
+          "config": {
+            "label": "Top Padding",
+            "placeholder": "",
+            "options": [
+              "Full",
+              "Half",
+              "None"
+            ],
+            "default_value": "Full"
+          }
+        },
+        "bottom_padding": {
+          "type": "Select",
+          "config": {
+            "label": "Bottom Padding",
+            "placeholder": "",
+            "options": [
+              "Full",
+              "Half",
+              "None"
+            ],
+            "default_value": "Full"
+          }
+        },
+        "eyebrow": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph,heading1,heading2"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,heading1,heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "buttons": {
+          "type": "Link",
+          "config": {
+            "label": "Buttons",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": true,
+            "variants": [
+              "Primary",
+              "Secondary",
+              "Link",
+              "Primary with Arrow",
+              "Secondary with Arrow",
+              "Link with Arrow"
+            ]
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1920,
+              "height": 1080
+            },
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "twoColumns",
+      "name": "Two Columns",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "top_padding": {
+          "type": "Select",
+          "config": {
+            "label": "Top Padding",
+            "placeholder": "",
+            "options": [
+              "Full",
+              "Half",
+              "None"
+            ],
+            "default_value": "Full"
+          }
+        },
+        "bottom_padding": {
+          "type": "Select",
+          "config": {
+            "label": "Bottom Padding",
+            "placeholder": "",
+            "options": [
+              "Full",
+              "Half",
+              "None"
+            ],
+            "default_value": "Full"
+          }
+        },
+        "eyebrow": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph,heading1,heading2"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,heading1,heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "buttons": {
+          "type": "Link",
+          "config": {
+            "label": "Buttons",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": true,
+            "variants": [
+              "Primary",
+              "Secondary",
+              "Link",
+              "Primary with Arrow",
+              "Secondary with Arrow",
+              "Link with Arrow"
+            ]
+          }
+        },
+        "show_google_reviews": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show Google Reviews?",
+            "placeholder_false": "No",
+            "placeholder_true": "Yes",
+            "default_value": false
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1920,
+              "height": 1080
+            },
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "withBackgroundImage",
+      "name": "With Background Image",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "top_padding": {
+          "type": "Select",
+          "config": {
+            "label": "Top Padding",
+            "placeholder": "",
+            "options": [
+              "Full",
+              "Half",
+              "None"
+            ],
+            "default_value": "Full"
+          }
+        },
+        "bottom_padding": {
+          "type": "Select",
+          "config": {
+            "label": "Bottom Padding",
+            "placeholder": "",
+            "options": [
+              "Full",
+              "Half",
+              "None"
+            ],
+            "default_value": "Full"
+          }
+        },
+        "show_google_reviews": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show Google Reviews?",
+            "placeholder_false": "No",
+            "placeholder_true": "Yes",
+            "default_value": false
+          }
+        },
+        "eyebrow": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph,heading1,heading2"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,heading1,heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "buttons": {
+          "type": "Link",
+          "config": {
+            "label": "Buttons",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": true,
+            "variants": [
+              "Primary",
+              "Secondary",
+              "Link",
+              "Primary with Arrow",
+              "Secondary with Arrow",
+              "Link with Arrow"
+            ]
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Background Image",
+            "constraint": {
+              "width": 1920,
+              "height": 1080
+            },
+            "thumbnails": []
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "twoColumnsVideo",
+      "name": "Two Columns with Video",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Two Columns with Video",
+      "imageUrl": "",
+      "primary": {
+        "top_padding": {
+          "type": "Select",
+          "config": {
+            "label": "Top Padding",
+            "placeholder": "",
+            "options": [
+              "Full",
+              "Half",
+              "None"
+            ],
+            "default_value": "Full"
+          }
+        },
+        "bottom_padding": {
+          "type": "Select",
+          "config": {
+            "label": "Bottom Padding",
+            "placeholder": "",
+            "options": [
+              "Full",
+              "Half",
+              "None"
+            ],
+            "default_value": "Full"
+          }
+        },
+        "eyebrow": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph,heading1,heading2"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,heading1,heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "highlights": {
+          "type": "Group",
+          "config": {
+            "label": "Highlights",
+            "repeat": true,
+            "fields": {
+              "icon": {
+                "type": "Image",
+                "config": {
+                  "label": "Icon",
+                  "constraint": {
+                    "width": 64,
+                    "height": 64
+                  },
+                  "thumbnails": []
+                }
+              },
+              "text": {
+                "type": "StructuredText",
+                "config": {
+                  "label": "Text",
+                  "placeholder": "",
+                  "allowTargetBlank": true,
+                  "single": "paragraph,strong,em,hyperlink"
+                }
+              }
+            }
+          }
+        },
+        "buttons": {
+          "type": "Link",
+          "config": {
+            "label": "Buttons",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": true,
+            "variants": [
+              "Primary",
+              "Secondary",
+              "Link",
+              "Primary with Arrow",
+              "Secondary with Arrow",
+              "Link with Arrow"
+            ]
+          }
+        },
+        "show_google_reviews": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show Google Reviews?",
+            "placeholder_false": "No",
+            "placeholder_true": "Yes",
+            "default_value": false
+          }
+        },
+        "image": {
+          "type": "Image",
+          "config": {
+            "label": "Image",
+            "constraint": {
+              "width": 1080,
+              "height": 1350
+            },
+            "thumbnails": []
+          }
+        },
+        "video": {
+          "type": "Embed",
+          "config": {
+            "label": "Video (YouTube / Vimeo URL)",
+            "placeholder": "https://www.youtube.com/watch?v=..."
+          }
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "twoColumnsForm",
+      "name": "Two Columns with Form",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Two Columns with Form",
+      "imageUrl": "",
+      "primary": {
+        "top_padding": {
+          "type": "Select",
+          "config": {
+            "label": "Top Padding",
+            "placeholder": "",
+            "options": [
+              "Full",
+              "Half",
+              "None"
+            ],
+            "default_value": "Full"
+          }
+        },
+        "bottom_padding": {
+          "type": "Select",
+          "config": {
+            "label": "Bottom Padding",
+            "placeholder": "",
+            "options": [
+              "Full",
+              "Half",
+              "None"
+            ],
+            "default_value": "Full"
+          }
+        },
+        "eyebrow": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Eyebrow",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "multi": "paragraph,heading1,heading2"
+          }
+        },
+        "title": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Title",
+            "placeholder": "",
+            "allowTargetBlank": false,
+            "single": "paragraph,heading1,heading2"
+          }
+        },
+        "description": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Description",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "buttons": {
+          "type": "Link",
+          "config": {
+            "label": "Buttons",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true,
+            "repeat": true,
+            "variants": [
+              "Primary",
+              "Secondary",
+              "Link",
+              "Primary with Arrow",
+              "Secondary with Arrow",
+              "Link with Arrow"
+            ]
+          }
+        },
+        "show_google_reviews": {
+          "type": "Boolean",
+          "config": {
+            "label": "Show Google Reviews?",
+            "placeholder_false": "No",
+            "placeholder_true": "Yes",
+            "default_value": false
+          }
+        },
+        "email_recippients": {
+          "type": "Text",
+          "config": {
+            "label": "Email Recipients",
+            "placeholder": ""
+          }
+        },
+        "success_message": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Success Message",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "failure_message": {
+          "type": "StructuredText",
+          "config": {
+            "label": "Failure Message",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,strong,em,hyperlink"
+          }
+        },
+        "privacy_policy_link": {
+          "type": "Link",
+          "config": {
+            "label": "Privacy Policy Link",
+            "placeholder": "",
+            "select": null,
+            "allowTargetBlank": true,
+            "allowText": true
+          }
+        },
+        "submit_button_label": {
+          "type": "Text",
+          "config": {
+            "label": "Submit Button Label",
+            "placeholder": "Submit"
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

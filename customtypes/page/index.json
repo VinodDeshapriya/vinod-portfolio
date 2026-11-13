@@ -1,0 +1,158 @@
+{
+  "format": "page",
+  "id": "page",
+  "label": "Page",
+  "repeatable": true,
+  "status": true,
+  "json": {
+    "Main": {
+      "uid": {
+        "type": "UID",
+        "config": {
+          "label": "Slug"
+        }
+      },
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "heading1"
+        }
+      },
+      "parent_page": {
+        "type": "Link",
+        "config": {
+          "label": "Parent Page",
+          "select": "document",
+          "repeat": false,
+          "customtypes": ["page"]
+        }
+      },
+      "search_summary": {
+        "type": "Text",
+        "config": {
+          "label": "Search Summary",
+          "placeholder": "This is used for Algolia search when enabled."
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {
+            "text_content": {
+              "type": "SharedSlice"
+            },
+            "content_listing": {
+              "type": "SharedSlice"
+            },
+            "trust_bar": {
+              "type": "SharedSlice"
+            },
+            "featured_content": {
+              "type": "SharedSlice"
+            },
+            "featured_content_listing": {
+              "type": "SharedSlice"
+            },
+            "image_content": {
+              "type": "SharedSlice"
+            },
+            "stats": {
+              "type": "SharedSlice"
+            },
+            "c_t_a": {
+              "type": "SharedSlice"
+            },
+            "contact": {
+              "type": "SharedSlice"
+            },
+            "f_a_qs": {
+              "type": "SharedSlice"
+            },
+            "testimonials": {
+              "type": "SharedSlice"
+            },
+            "hero_section": {
+              "type": "SharedSlice"
+            },
+            "rich_text": {
+              "type": "SharedSlice"
+            },
+            "service_area": {
+              "type": "SharedSlice"
+            }
+          }
+        }
+      }
+    },
+    "SEO & Metadata": {
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      },
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      },
+      "og_title": {
+        "type": "Text",
+        "config": {
+          "label": "OG Title",
+          "placeholder": "If left empty, meta title will be used"
+        }
+      },
+      "og_description": {
+        "type": "Text",
+        "config": {
+          "label": "OG Description",
+          "placeholder": "If left empty, meta description will be used"
+        }
+      },
+      "canonical_url": {
+        "type": "Text",
+        "config": {
+          "label": "Canonical URL",
+          "placeholder": ""
+        }
+      }
+    },
+    "Structured Data": {
+      "structured_data": {
+        "type": "Group",
+        "config": {
+          "label": "Structured Data",
+          "repeat": true,
+          "fields": {
+            "json": {
+              "type": "Text",
+              "config": {
+                "label": "JSON",
+                "placeholder": ""
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

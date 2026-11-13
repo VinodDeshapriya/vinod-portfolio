@@ -1,0 +1,65 @@
+.embla-rated-cards {
+  margin: auto;
+  --slide-spacing: 16px;
+  --slide-size: 92%;
+
+  @media (min-width: 640px) {
+    --slide-spacing: 20px;
+    --slide-size: 60%;
+  }
+
+  .embla__viewport {
+    overflow: hidden;
+    padding-left: 16px;
+
+    @media (min-width: 768px) {
+      padding-left: 40px;
+    }
+  }
+
+  .embla__container {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+  }
+
+  .embla__slide {
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    max-width: 288px;
+    padding-left: var(--slide-spacing);
+
+    @media (min-width: 640px) {
+      max-width: 334px;
+    }
+    @media (min-width: 1200px) {
+      max-width: 410px;
+    }
+  }
+
+  // Only applied when there are 3 or fewer testimonials (see
+  // RatedTestimonialsCarousel), so a row that exactly fits the desktop
+  // width can lay out flat and centered instead of scrolling. With more
+  // items this modifier is omitted and the carousel keeps peeking/scrolling
+  // at every breakpoint — `justify-content: center` would otherwise center
+  // the overflowing row and crop both ends around embla's transform-based
+  // scroll position. The 410px card width above still applies either way.
+  &.embla-rated-cards--flat {
+    @media (min-width: 1200px) {
+      --slide-size: 33.3333%;
+    }
+
+    .embla__viewport {
+      @media (min-width: 1200px) {
+        padding-left: 0px;
+      }
+    }
+
+    .embla__container {
+      @media (min-width: 1200px) {
+        justify-content: center;
+      }
+    }
+  }
+}

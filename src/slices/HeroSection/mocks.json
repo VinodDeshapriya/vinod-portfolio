@@ -1,0 +1,740 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "None",
+				"type": "Select"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "None",
+				"type": "Select"
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Sint Lorem incididunt incididunt qui exercitation mollit."
+						}
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Culpa sit ad ex deserunt nostrud. Ipsum dolor anim sit adipisicing cupidatat ex Lorem qui."
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Magna deserunt magna consectetur dolor reprehenderit enim qui tempor dolor nulla et. Enim in laboris cillum tempor nulla."
+						}
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "0d0048b2-a22f-4d96-9791-e9c7ae367afa",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "http://twitter.com",
+							"text": "courage",
+							"variant": "Primary with Arrow"
+						}
+					}
+				]
+			},
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1",
+					"width": 5616,
+					"height": 3744
+				},
+				"width": 1920,
+				"height": 1080,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 293
+					},
+					"background": "transparent"
+				},
+				"url": "https://images.unsplash.com/photo-1515378960530-7c0da6231fb1?rect=0%2C293%2C5616%2C3159&w=1920&h=1080",
+				"alt": "thy",
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "5d0254b1-ba1a-40c9-ae36-99259496cce0",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "twoColumns",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Full",
+				"type": "Select"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Full",
+				"type": "Select"
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Minim aute culpa ullamco ipsum aute Lorem esse occaecat ut. Quis nulla sunt exercitation proident."
+						}
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Nisi officia nulla eiusmod magna aliquip ex eiusmod elit ipsum. Consequat laboris consectetur elit commodo occaecat enim."
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Labore magna anim ut elit sint ad velit exercitation et voluptate ex adipisicing deserunt enim nisi. Lorem qui mollit commodo labore Lorem elit reprehenderit sit nulla."
+						}
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "dde20c0b-78ee-4b24-9926-d289f56c08e9",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://slicemachine.dev",
+							"text": "chest",
+							"variant": "Link"
+						}
+					}
+				]
+			},
+			"show_google_reviews": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2",
+					"width": 5616,
+					"height": 3744
+				},
+				"width": 1920,
+				"height": 1080,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 293
+					},
+					"background": "transparent"
+				},
+				"url": "https://images.unsplash.com/photo-1515378791036-0648a3ef77b2?rect=0%2C293%2C5616%2C3159&w=1920&h=1080",
+				"alt": "tax",
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "6da1f215-556c-420d-a3ae-0572def1eac3",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "withBackgroundImage",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Full",
+				"type": "Select"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "None",
+				"type": "Select"
+			},
+			"show_google_reviews": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aute aute non eiusmod do dolor est Lorem incididunt exercitation deserunt. Ea deserunt cupidatat ullamco ut non magna eiusmod laboris cillum. Nulla sit velit qui in."
+						}
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Voluptate Lorem sint Lorem mollit ea cupidatat reprehenderit irure duis dolor aute. Nostrud velit dolore in ullamco ipsum dolore sit adipisicing mollit est occaecat labore ut labore adipisicing."
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Adipisicing velit minim irure pariatur est Lorem in veniam tempor culpa consequat cillum commodo."
+						}
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "7d29dcba-1115-4b6f-be8a-7ef4f9508a94",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "http://twitter.com",
+							"text": "obtain",
+							"variant": "Link with Arrow"
+						}
+					}
+				]
+			},
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1587840171670-8b850147754e",
+					"width": 4480,
+					"height": 4480
+				},
+				"width": 1920,
+				"height": 1080,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 980
+					},
+					"background": "transparent"
+				},
+				"url": "https://images.unsplash.com/photo-1587840171670-8b850147754e?rect=0%2C980%2C4480%2C2520&w=1920&h=1080",
+				"alt": "open",
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "8cdae3e5-4112-447f-be51-97a25b7c3d8c",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "twoColumnsVideo",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Full",
+				"type": "Select"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Half",
+				"type": "Select"
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Deserunt et consequat et dolor. Elit occaecat ea occaecat id non exercitation consequat dolor culpa."
+						}
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Mollit sint aliqua veniam aute commodo nostrud nostrud ullamco quis. Sit dolore minim sit officia dolore adipisicing."
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Magna eiusmod aliqua anim ipsum aliquip veniam officia nostrud nulla adipisicing voluptate eiusmod ad."
+						}
+					}
+				]
+			},
+			"highlights": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icon",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869",
+										"width": 3000,
+										"height": 3000
+									},
+									"width": 128,
+									"height": 128,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?rect=0%2C0%2C3000%2C3000&w=128&h=128",
+									"alt": "",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"text",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Licences: ABN 38 667 603 152",
+												"spans": [
+													{
+														"type": "hyperlink",
+														"start": 10,
+														"end": 28,
+														"data": {
+															"__TYPE__": "ExternalLink",
+															"url": "https://abr.business.gov.au"
+														}
+													}
+												]
+											}
+										}
+									]
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icon",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869",
+										"width": 3000,
+										"height": 3000
+									},
+									"width": 128,
+									"height": 128,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?rect=0%2C0%2C3000%2C3000&w=128&h=128",
+									"alt": "",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"text",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "Cleaning after hours & weekends",
+												"spans": []
+											}
+										}
+									]
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icon",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869",
+										"width": 3000,
+										"height": 3000
+									},
+									"width": 128,
+									"height": 128,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?rect=0%2C0%2C3000%2C3000&w=128&h=128",
+									"alt": "",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"text",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "We reply within one business day",
+												"spans": []
+											}
+										}
+									]
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"icon",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869",
+										"width": 3000,
+										"height": 3000
+									},
+									"width": 128,
+									"height": 128,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 0
+										},
+										"background": "transparent"
+									},
+									"url": "https://images.unsplash.com/photo-1600804931749-2da4ce26c869?rect=0%2C0%2C3000%2C3000&w=128&h=128",
+									"alt": "",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"text",
+								{
+									"__TYPE__": "StructuredTextContent",
+									"value": [
+										{
+											"type": "paragraph",
+											"content": {
+												"text": "3+ Years Serving Sydney Businesses",
+												"spans": []
+											}
+										}
+									]
+								}
+							]
+						]
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "85d72e83-442d-49c3-bc08-1790408f7db1",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "http://twitter.com",
+							"text": "sing",
+							"variant": "Primary"
+						}
+					}
+				]
+			},
+			"show_google_reviews": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"image": {
+				"origin": {
+					"id": "main",
+					"url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f",
+					"width": 6000,
+					"height": 4000
+				},
+				"url": "https://images.unsplash.com/photo-1544731612-de7f96afe55f?rect=0%2C313%2C6000%2C3375&w=1920&h=1080",
+				"width": 1920,
+				"height": 1080,
+				"edit": {
+					"zoom": 1,
+					"crop": {
+						"x": 0,
+						"y": 313
+					},
+					"background": "transparent"
+				},
+				"alt": "desk",
+				"credits": null,
+				"__TYPE__": "ImageContent",
+				"thumbnails": {}
+			},
+			"video": {
+				"__TYPE__": "EmbedContent",
+				"embed_url": "https://www.youtube.com/watch?v=Qgd4KxJFK3k",
+				"all": {
+					"type": "video",
+					"version": "1.0",
+					"title": "Sample video",
+					"author_name": "Sample",
+					"provider_name": "YouTube",
+					"provider_url": "https://www.youtube.com/",
+					"thumbnail_url": "https://i.ytimg.com/vi/Qgd4KxJFK3k/hqdefault.jpg",
+					"thumbnail_width": 480,
+					"thumbnail_height": 360,
+					"width": 200,
+					"height": 113,
+					"html": "<iframe width=\"200\" height=\"113\" src=\"https://www.youtube.com/embed/Qgd4KxJFK3k?feature=oembed\" frameborder=\"0\" allowfullscreen></iframe>",
+					"embed_url": "https://www.youtube.com/watch?v=Qgd4KxJFK3k"
+				}
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "cf5956d6-5ed1-4268-968c-ae793108568a",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "twoColumnsForm",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Full",
+				"type": "Select"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Full",
+				"type": "Select"
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Lorem ipsum dolor",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "heading1",
+						"content": {
+							"text": "Lorem ipsum dolor sit amet.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "3f1d6a52-8c1e-4a57-9c11-0d4b7f2a9e01",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://prismic.io",
+							"text": "Button Text",
+							"variant": "Primary"
+						}
+					},
+					{
+						"key": "3f1d6a52-8c1e-4a57-9c11-0d4b7f2a9e02",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://prismic.io",
+							"text": "Button Text",
+							"variant": "Secondary"
+						}
+					}
+				]
+			},
+			"show_google_reviews": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"email_recippients": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "hello@example.com"
+			},
+			"success_message": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Thank you! Your message has been sent and someone from our team will be in touch shortly.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"failure_message": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Something went wrong while submitting the form.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"submit_button_label": {
+				"__TYPE__": "FieldContent",
+				"type": "Text",
+				"value": "Submit"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "6da1f215-556c-420d-a3ae-0572def1eac3",
+				"value": []
+			}
+		]
+	}
+]

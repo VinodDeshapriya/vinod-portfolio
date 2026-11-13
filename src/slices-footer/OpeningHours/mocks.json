@@ -1,0 +1,71 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"rows": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"day",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Monday - Friday"
+								}
+							],
+							[
+								"hours",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Open 24 hours"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"day",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Saturday"
+								}
+							],
+							[
+								"hours",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Open 24 hours"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"day",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Sunday"
+								}
+							],
+							[
+								"hours",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "Open 24 hours"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

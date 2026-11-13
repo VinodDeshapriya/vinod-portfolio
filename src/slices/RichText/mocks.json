@@ -1,0 +1,98 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "Half"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Half",
+				"type": "Select"
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ad quis non elit elit excepteur. Exercitation officia cupidatat officia do minim. Commodo fugiat enim laboris incididunt labore sint amet pariatur nulla quis culpa."
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliqua incididunt qui consectetur consequat eiusmod sit amet incididunt consequat exercitation excepteur fugiat. Non ullamco elit duis culpa.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "8197315d-946e-42bd-9f3a-afe58a7b959b",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://google.com",
+							"target": "_blank",
+							"text": "triangle",
+							"variant": "Primary"
+						}
+					}
+				]
+			},
+			"content": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliqua incididunt qui consectetur consequat eiusmod sit amet incididunt consequat exercitation excepteur fugiat. Non ullamco elit duis culpa.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Eu occaecat deserunt ex aliqua exercitation. Esse quis dolor proident pariatur dolore nostrud sint labore in labore. Est enim labore elit qui."
+						}
+					}
+				]
+			},
+			"background_color": {
+				"__TYPE__": "BooleanContent",
+				"value": true
+			},
+			"title_alignment": {
+				"__TYPE__": "FieldContent",
+				"value": "Center",
+				"type": "Select"
+			},
+			"content_alignment": {
+				"__TYPE__": "FieldContent",
+				"value": "Left",
+				"type": "Select"
+			}
+		},
+		"items": []
+	}
+]

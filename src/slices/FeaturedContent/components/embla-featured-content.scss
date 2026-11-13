@@ -1,0 +1,90 @@
+.embla-featured-content {
+  margin: auto;
+  --slide-spacing: 20px;
+  --slide-size: 75%;
+
+  padding-right: 0;
+
+  @media (min-width: 576px) {
+    --slide-size: 60%;
+  }
+
+  @media (min-width: 768px) {
+    --slide-size: 45%;
+  }
+  @media (min-width: 1024px) {
+    --slide-size: 33.3333%;
+  }
+  @media (min-width: 1280px) {
+  }
+  @media (min-width: 1440px) {
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  &.is-scrolled {
+    padding-left: 0;
+  }
+
+  // Card Carousel: 32px between the cards, and from lg the cards sit inside the
+  // page margins (40px, then 80px) instead of bleeding off the right edge.
+  // Below lg it keeps the carousel's peek-from-the-right.
+  &.is-card-carousel {
+    --slide-spacing: 32px;
+
+    .embla__slide {
+      max-width: 334px;
+
+      @media (min-width: 1024px) {
+        max-width: none;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .embla__viewport {
+        width: calc(100% - 80px);
+        margin: 0 auto;
+        padding-left: 0;
+      }
+    }
+
+    // the slice's container is 1280px at most, so this only bites between 1280px and
+    // 1440px, where it keeps the 80px page margins on both sides
+    @media (min-width: 1280px) {
+      .embla__viewport {
+        width: min(100%, calc(100vw - 160px));
+      }
+    }
+  }
+
+  .embla__viewport {
+    overflow: hidden;
+    padding-left: 16px;
+    @media (min-width: 768px) {
+      padding-left: 40px;
+    }
+    @media (min-width: 1280px) {
+      padding-left: 80px;
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+    @media (min-width: 1440px) {
+      padding-left: 0px;
+    }
+  }
+
+  .embla__container {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+  }
+
+  .embla__slide {
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+  }
+}

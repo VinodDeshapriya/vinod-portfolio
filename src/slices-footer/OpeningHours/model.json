@@ -1,0 +1,42 @@
+{
+  "id": "opening_hours",
+  "type": "SharedSlice",
+  "name": "OpeningHours",
+  "description": "OpeningHours",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "initial",
+      "description": "Default",
+      "imageUrl": "",
+      "primary": {
+        "rows": {
+          "type": "Group",
+          "config": {
+            "label": "Rows",
+            "repeat": true,
+            "fields": {
+              "day": {
+                "type": "Text",
+                "config": {
+                  "label": "Day",
+                  "placeholder": "e.g. Monday - Friday"
+                }
+              },
+              "hours": {
+                "type": "Text",
+                "config": {
+                  "label": "Hours",
+                  "placeholder": "e.g. Open 24 hours"
+                }
+              }
+            }
+          }
+        }
+      },
+      "items": {}
+    }
+  ]
+}

@@ -1,0 +1,432 @@
+[
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "default",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "Half"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "Half"
+			},
+			"background_color": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ipsum eiusmod qui eiusmod qui ad qui enim Lorem et velit ipsum consequat. Adipisicing ut exercitation id voluptate anim cupidatat."
+						}
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Non fugiat proident eu ipsum sunt proident duis cillum. Sit aute consectetur nisi sunt est eu ad cupidatat aute do labore consequat consectetur. Veniam do sint adipisicing consequat anim cillum."
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Aliqua incididunt qui consectetur consequat eiusmod sit amet incididunt consequat exercitation excepteur fugiat.",
+							"spans": []
+						},
+						"direction": "ltr"
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "ed77e0b4-1979-446a-9b93-cddb47eab5d0",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://example.com",
+							"target": "_blank",
+							"text": "Get started",
+							"variant": "Primary"
+						}
+					}
+				]
+			},
+			"testimonials": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"value": [
+							[
+								"image",
+								{
+									"origin": {
+										"id": "main",
+										"url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055",
+										"width": 3277,
+										"height": 4092
+									},
+									"url": "https://images.unsplash.com/photo-1494173853739-c21f58b16055?rect=0%2C408%2C3277%2C3277&w=128&h=128",
+									"width": 128,
+									"height": 128,
+									"edit": {
+										"zoom": 1,
+										"crop": {
+											"x": 0,
+											"y": 408
+										},
+										"background": "transparent"
+									},
+									"alt": "government",
+									"credits": null,
+									"__TYPE__": "ImageContent",
+									"thumbnails": {}
+								}
+							],
+							[
+								"name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "chosen",
+									"type": "Text"
+								}
+							],
+							[
+								"role",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "changing",
+									"type": "Text"
+								}
+							],
+							[
+								"testimonial",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "ball",
+									"type": "Text"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "googleReviews",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Full",
+				"type": "Select"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Half",
+				"type": "Select"
+			},
+			"background_color": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Fugiat eu enim anim velit veniam Lorem amet et do consequat. Occaecat enim excepteur labore aute sit dolore officia reprehenderit. Cillum tempor eiusmod ullamco est do commodo qui sit eiusmod exercitation aliqua."
+						}
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Ea do deserunt consectetur labore duis eu id sit ut. Sunt eiusmod tempor ullamco voluptate minim id mollit ipsum tempor irure adipisicing laborum aliquip pariatur."
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Cillum exercitation sunt non. Quis velit eu amet anim Lorem id exercitation sunt quis incididunt anim magna. Aliquip duis magna est tempor elit."
+						}
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"key": "8525e3ad-4525-4180-80aa-269098b5ec11",
+						"__TYPE__": "LinkContent",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "http://google.com",
+							"text": "tank",
+							"variant": "Secondary with Arrow"
+						}
+					}
+				]
+			},
+			"client_id": {
+				"__TYPE__": "FieldContent",
+				"value": "longer",
+				"type": "Text"
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "ratedCards",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "Full",
+				"type": "Select"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"value": "None",
+				"type": "Select"
+			},
+			"background_color": {
+				"__TYPE__": "BooleanContent",
+				"value": false
+			},
+			"eyebrow": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Nulla officia sint aliquip veniam occaecat eiusmod ut proident dolor ex tempor nisi aliquip. Minim ut est pariatur cillum anim adipisicing enim aliqua ullamco cillum duis aliquip anim. Elit ut elit non est tempor aute excepteur minim."
+						}
+					}
+				]
+			},
+			"title": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Amet reprehenderit pariatur quis eiusmod veniam labore voluptate aliqua minim tempor. Mollit occaecat aliquip laboris ullamco nulla incididunt anim laboris. Non cillum minim nisi officia magna."
+						}
+					}
+				]
+			},
+			"description": {
+				"__TYPE__": "StructuredTextContent",
+				"value": [
+					{
+						"type": "paragraph",
+						"content": {
+							"text": "Eiusmod anim incididunt sunt eiusmod dolore et voluptate quis aute nisi."
+						}
+					}
+				]
+			},
+			"buttons": {
+				"__TYPE__": "RepeatableContent",
+				"type": "Link",
+				"value": [
+					{
+						"__TYPE__": "LinkContent",
+						"key": "62af865e-06d1-47c2-b659-c806ace0b96e",
+						"value": {
+							"__TYPE__": "ExternalLink",
+							"url": "https://prismic.io",
+							"text": "with",
+							"variant": "Link with Arrow"
+						}
+					}
+				]
+			},
+			"testimonials": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "735a2418-8a00-4d77-bd04-f6e58918e14b",
+						"value": [
+							[
+								"name",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "lot",
+									"type": "Text"
+								}
+							],
+							[
+								"role",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "fast",
+									"type": "Text"
+								}
+							],
+							[
+								"testimonial",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "given",
+									"type": "Text"
+								}
+							],
+							[
+								"rating",
+								{
+									"__TYPE__": "FieldContent",
+									"value": "15",
+									"type": "Number"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": [
+			{
+				"__TYPE__": "GroupItemContent",
+				"key": "e2b0ef35-c223-4519-9731-eb87d6989d64",
+				"value": []
+			}
+		]
+	},
+	{
+		"__TYPE__": "SharedSliceContent",
+		"variation": "videoTestimonials",
+		"primary": {
+			"top_padding": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "Full"
+			},
+			"bottom_padding": {
+				"__TYPE__": "FieldContent",
+				"type": "Select",
+				"value": "Full"
+			},
+			"testimonials": {
+				"__TYPE__": "GroupContentType",
+				"value": [
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "3b1d7a3e-6f0e-4c1a-9f2b-1a2b3c4d5e61",
+						"value": [
+							[
+								"quote",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "We can always rely on the Walkers team."
+								}
+							],
+							[
+								"testimonial",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Lachlan and his team ensure our office is in perfect shape every day."
+								}
+							],
+							[
+								"name",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Tim Wolfenden"
+								}
+							],
+							[
+								"role",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Growth Potential Australia"
+								}
+							]
+						]
+					},
+					{
+						"__TYPE__": "GroupItemContent",
+						"key": "3b1d7a3e-6f0e-4c1a-9f2b-1a2b3c4d5e62",
+						"value": [
+							[
+								"quote",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Spotless every single morning."
+								}
+							],
+							[
+								"testimonial",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "The crew works around our hours and never misses a detail."
+								}
+							],
+							[
+								"name",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Sarah Mitchell"
+								}
+							],
+							[
+								"role",
+								{
+									"__TYPE__": "FieldContent",
+									"type": "Text",
+									"value": "Harbour Dental Group"
+								}
+							]
+						]
+					}
+				]
+			}
+		},
+		"items": []
+	}
+]

@@ -1,0 +1,33 @@
+.embla-google-reviews {
+  margin: auto;
+  --slide-spacing: 20px;
+  --slide-size: 100%;
+
+  @media (min-width: 576px) {
+    --slide-size: 50%;
+  }
+  @media (min-width: 1024px) {
+    --slide-size: 33.3%;
+  }
+  @media (min-width: 1200px) {
+    --slide-size: 25%;
+  }
+
+  .embla__viewport {
+    overflow: hidden;
+  }
+
+  .embla__container {
+    display: flex;
+    touch-action: pan-y pinch-zoom;
+    margin-left: calc(var(--slide-spacing) * -1);
+  }
+
+  .embla__slide {
+    transform: translate3d(0, 0, 0);
+    flex: 0 0 var(--slide-size);
+    min-width: 0;
+    padding-left: var(--slide-spacing);
+  }
+
+}

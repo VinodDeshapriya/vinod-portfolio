@@ -1,0 +1,26 @@
+[
+  {
+    "type": "page",
+    "path": "/:parent?/:uid",
+    "resolvers": {
+      "parent": "parent_page"
+    }
+  },
+  {
+    "type": "page",
+    "uid": "home",
+    "path": "/"
+  },
+  {
+    "type": "blog",
+    "path": "/blog/:uid"
+  },
+  {
+    "type": "service",
+    "path": "/services/:uid"
+  },
+  {
+    "type": "author",
+    "path": "/authors/:uid"
+  }
+]

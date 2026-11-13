@@ -1,0 +1,249 @@
+{
+  "format": "custom",
+  "id": "settings",
+  "label": "Settings",
+  "repeatable": false,
+  "status": true,
+  "json": {
+    "Main": {
+      "site_title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Site Title",
+          "placeholder": "",
+          "allowTargetBlank": false,
+          "single": "heading1"
+        }
+      },
+      "header_logo": {
+        "type": "Image",
+        "config": {
+          "label": "Header Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "footer_logo": {
+        "type": "Image",
+        "config": {
+          "label": "Footer Logo",
+          "constraint": {},
+          "thumbnails": []
+        }
+      },
+      "gtm_code": {
+        "type": "Text",
+        "config": {
+          "label": "GTM Code",
+          "placeholder": ""
+        }
+      },
+      "copyright_text": {
+        "type": "Text",
+        "config": {
+          "label": "Copyright Text",
+          "placeholder": ""
+        }
+      },
+      "footer_description": {
+        "type": "Text",
+        "config": {
+          "label": "Footer Description",
+          "placeholder": ""
+        }
+      },
+      "google_reviews_client_id": {
+        "type": "Text",
+        "config": {
+          "label": "Google Reviews Client ID",
+          "placeholder": "Enter the sheet ID from the Google Reviews"
+        }
+      },
+      "slices": {
+        "type": "Slices",
+        "fieldset": "Slice Zone",
+        "config": {
+          "choices": {}
+        }
+      }
+    },
+    "Default SEO & Metadata": {
+      "meta_title": {
+        "config": {
+          "label": "Meta Title",
+          "placeholder": "A title of the page used for social media and search engines"
+        },
+        "type": "Text"
+      },
+      "meta_description": {
+        "config": {
+          "label": "Meta Description",
+          "placeholder": "A brief summary of the page"
+        },
+        "type": "Text"
+      },
+      "meta_image": {
+        "config": {
+          "constraint": {
+            "height": 1260,
+            "width": 2400
+          },
+          "label": "Meta Image",
+          "thumbnails": []
+        },
+        "type": "Image"
+      }
+    },
+    "Reading": {
+      "repeatable_types": {
+        "type": "Group",
+        "config": {
+          "label": "Repeatable types",
+          "repeat": true,
+          "fields": {
+            "type": {
+              "type": "Text",
+              "config": {
+                "label": "Type (Page type ID from Prismic)",
+                "placeholder": ""
+              }
+            },
+            "items_per_page": {
+              "type": "Number",
+              "config": {
+                "label": "Items per page",
+                "placeholder": ""
+              }
+            },
+            "parent_page": {
+              "type": "Link",
+              "config": {
+                "label": "Parent Page (Used as the base URL)",
+                "select": "document",
+                "repeat": false,
+                "customtypes": ["page"]
+              }
+            }
+          }
+        }
+      }
+    },
+    "Social Profiles": {
+      "social_links": {
+        "type": "Link",
+        "config": {
+          "label": "Social Links",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": false,
+          "allowText": false,
+          "repeat": true,
+          "variants": [
+            "Facebook",
+            "X (Twitter)",
+            "LinkedIn",
+            "Instagram",
+            "TikTok",
+            "YouTube"
+          ]
+        }
+      }
+    },
+    "Contact Details": {
+      "address": {
+        "type": "Text",
+        "config": {
+          "label": "Address - Visual",
+          "placeholder": ""
+        }
+      },
+      "address_link": {
+        "type": "Text",
+        "config": {
+          "label": "Address - Link",
+          "placeholder": "Google Maps URL"
+        }
+      },
+      "email_address": {
+        "type": "Text",
+        "config": {
+          "label": "Email Address",
+          "placeholder": ""
+        }
+      },
+      "phone_number_visual": {
+        "type": "Text",
+        "config": {
+          "label": "Phone Number - Visual",
+          "placeholder": ""
+        }
+      },
+      "phone_number_link": {
+        "type": "Text",
+        "config": {
+          "label": "Phone Number - Link",
+          "placeholder": ""
+        }
+      }
+    },
+    "Blog CTA": {
+      "title": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Title",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "heading2,heading3,heading4,strong,em"
+        }
+      },
+      "description": {
+        "type": "StructuredText",
+        "config": {
+          "label": "Description",
+          "placeholder": "",
+          "allowTargetBlank": true,
+          "multi": "paragraph,strong,em,hyperlink,list-item"
+        }
+      },
+      "buttons": {
+        "type": "Link",
+        "config": {
+          "label": "Buttons",
+          "placeholder": "",
+          "select": null,
+          "allowTargetBlank": true,
+          "allowText": true,
+          "repeat": true,
+          "variants": [
+            "Primary",
+            "Secondary",
+            "Link",
+            "Primary with Arrow",
+            "Secondary with Arrow",
+            "Link with Arrow"
+          ]
+        }
+      }
+    },
+    "Layout Selection": {
+      "footer": {
+        "type": "Select",
+        "config": {
+          "label": "Footer",
+          "placeholder": "",
+          "options": ["WithMaps", "WithNewsletter"],
+          "default_value": "WithMaps"
+        }
+      },
+      "blog": {
+        "type": "Select",
+        "config": {
+          "label": "Blog",
+          "placeholder": "",
+          "options": ["WithSidebar", "WithoutSidebar"],
+          "default_value": "WithSidebar"
+        }
+      }
+    }
+  }
+}
